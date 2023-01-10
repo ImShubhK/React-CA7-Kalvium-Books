@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Header{
+    width: 100%;
+    margin-top: 3vh;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+#input-search-box{
+    width: 50vmin;
+    height: 10vmin;
+    padding-left: 3vh;
+    border-radius: 25px;
+    margin: 1em;
+}
+.bundle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 10px 10px 5px rgb(48, 164, 210);
+    border-radius: 4rem;
+    text-align: center;
+    margin: 2em;
+
+   
+}
+
+.books{
+    margin-top:5vh;
+    padding: 0px;
+    border-radius: 2rem;
+}
+.bimg{
+    border-radius: 2rem;
+}
+.title{
+    text-align: center;
+    width: 55vh;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+.reg{
+    font-weight: 600;
+  border: solid 2px black;
+  outline: 0;
+  /* padding: 1rem 4rem; */
+  font-size: 6vmin;
+  letter-spacing: .08rem;
+  background-color: white;
+  color: red;
+  border-radius: .35rem;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 5px 5px 0px 2px black;
+  height: 10vmin;
+  width: 40vmin;
+  text-align: center;
+  
+}
+
+.reg:hover{
+    background-color: rgb(27, 12, 81);
+    border: 0;
+    color: white;
+  box-shadow: 2px 5px 0px 2px rgb(210, 205, 205);
+}
+.reg:hover::after{
+    background-color: black;
+      box-shadow: none;
+}
+.nam{
+    text-shadow: 2px;
+    color: red;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.found{
+    text-align: center;
+    margin: 30vh;
+}

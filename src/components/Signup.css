@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box  ; */
+    background-color: azure;
+}
+
+h1{
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1rem solid black;
+    color: red;
+    margin-bottom: 3vh;
+}
+.element{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;  
+    text-align: center;
+    width: 60vw;
+    height: auto;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px 5px rgb(48, 164, 210);
+    border-radius: 2rem ;
+    border: 1px solid rgb(168, 166, 166);
+}
+
+.username{
+    text-align: center;
+    margin: 2vh;
+    width: 40vw;
+    height: 5vh; 
+    border-radius: 2rem ;
+}
+.pass{
+    text-align: center;
+    margin: 2vh;
+    width: 40vw;
+    height: 5vh; 
+    border-radius: 2rem ;
+}
+.rpass{
+    text-align: center;
+    margin: 2vh;
+    width: 40vw;
+    height: 5vh; 
+    border-radius: 2rem ;
+}
+.mail{
+    text-align: center;
+    margin: 2vh;
+    width: 40vw;
+    height: 5vh; 
+    border-radius: 2rem ;
+}
+.submit{
+    
+   margin: 3vh;
+    background-color:#078f15;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:5vh; 
+    min-width: 25vw
+}
+.submit:hover{
+    background-color:#002ead;
+    transition: 0.7s;
+}
+.submit:focus{
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #089a5f;
+    transition: 0.7s;
+}
+.submit:active{
+    background-color: #ffbf00;
+}
+.back{
+    text-align: center;
+    margin: 3vh;
+    background-color:#078f15;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:0.2vh; 
+    min-width: 1vw
+}
+.back:hover{
+    transition: 0.7s;
+    background-color: #ffbf00;
+}
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    width: 100vw;
+
+}
